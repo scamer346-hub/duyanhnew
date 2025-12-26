@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tổng quan về Nguyên tố Sodium (Na)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes fadeIn-up {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .animated-gradient {
+        background: linear-gradient(-45deg, #a5b4fc, #fde68a, #818cf8, #f9a8d4);
+        background-size: 400% 400%;
+        animation: gradientBG 20s ease infinite;
+      }
+
+      @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      
+      .info-grid {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.5rem 1rem;
+        align-items: center;
+      }
+      .info-grid strong {
+        font-weight: 600;
+        color: #334155; /* slate-700 */
+      }
+    </style>
+</head>
+  <body class="bg-slate-900">
+    <div class="animated-gradient min-h-screen text-slate-800 font-sans p-4 sm:p-6 lg:p-8">
+      <main class="max-w-4xl mx-auto">
+        <header class="flex justify-center my-8 md:my-10">
+            <div class="w-full max-w-sm bg-white/30 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl p-6 text-center text-white relative">
+                <div class="absolute top-4 left-4 text-2xl font-bold text-indigo-100">11</div>
+                <div class="absolute top-4 right-4 text-lg font-medium text-indigo-100">22.990</div>
+                <div class="text-8xl sm:text-9xl font-black tracking-tighter my-4 drop-shadow-xl [text-shadow:_0_4px_10px_rgb(0_0_0_/_0.3)]">Na</div>
+                <div class="text-4xl font-bold tracking-tight">Sodium</div>
+                <p class="mt-3 text-base text-indigo-100 font-medium">Kim loại kiềm hoạt động mạnh</p>
+            </div>
+        </header>
+
+        <div class="mt-10 bg-white/50 backdrop-blur-lg border border-white/20 rounded-xl shadow-lg p-6 sm:p-8" style="animation: fadeIn-up 0.6s ease-out forwards;">
+            
+            <!-- Thông tin tổng quan -->
+            <section class="mb-6">
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-indigo-300 pb-2 mb-4">I. Thông tin Tổng quan</h2>
+                <div class="info-grid text-slate-600 text-base leading-relaxed">
+                    <strong>Tên IUPAC:</strong> <span>Sodium</span>
+                    <strong>Kí hiệu hóa học:</strong> <span>Na</span>
+                    <strong>Số hiệu nguyên tử (Z):</strong> <span>11</span>
+                    <strong>Nguyên tử khối:</strong> <span>~22.990 u</span>
+                    <strong>Vị trí:</strong> <span>Chu kì 3, Nhóm IA</span>
+                    <strong>Cấu hình electron:</strong> <span>[Ne] 3s¹</span>
+                    <strong>Tính chất nguyên tố:</strong> <span class="font-semibold text-indigo-700">Kim loại điển hình</span>
+                    <strong>Oxide cao nhất:</strong> <span>Na₂O</span>
+                    <strong>Hydroxide tương ứng:</strong> <span>NaOH (là một <span class="font-semibold text-red-600">base rất mạnh</span>)</span>
+                </div>
+            </section>
+
+            <!-- Xu hướng biến đổi -->
+            <section class="mb-6">
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-indigo-300 pb-2 mb-4">II. Xu hướng Biến đổi Tính chất</h2>
+                <div class="space-y-3 text-slate-600">
+                    <p><strong>Trong chu kì 3 (từ trái sang phải):</strong> Bán kính nguyên tử giảm, độ âm điện tăng, tính kim loại giảm. Natri là nguyên tố có tính kim loại mạnh nhất chu kì (trừ khí hiếm).</p>
+                    <p><strong>Trong nhóm IA (từ trên xuống dưới):</strong> Bán kính nguyên tử tăng, độ âm điện giảm, tính kim loại tăng. Natri có tính kim loại yếu hơn Kali (K) nhưng mạnh hơn Liti (Li).</p>
+                </div>
+            </section>
+
+            <!-- Tính chất Vật lí -->
+            <section class="mb-6">
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-indigo-300 pb-2 mb-4">III. Tính chất Vật lí</h2>
+                <ul class="list-disc list-inside space-y-2 text-slate-600">
+                    <li>Là kim loại mềm (có thể cắt bằng dao), màu trắng bạc, có ánh kim.</li>
+                    <li>Nhẹ, nổi trên nước (khối lượng riêng 0.97 g/cm³).</li>
+                    <li>Dẫn điện và dẫn nhiệt tốt.</li>
+                    <li>Nhiệt độ nóng chảy thấp (97.8 °C), nhiệt độ sôi 883 °C.</li>
+                </ul>
+            </section>
+
+            <!-- Tính chất Hóa học -->
+            <section class="mb-6">
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-indigo-300 pb-2 mb-4">IV. Tính chất Hóa học</h2>
+                <ul class="list-disc list-inside space-y-2 text-slate-600">
+                    <li>Là một kim loại có <strong>tính khử rất mạnh</strong>, dễ dàng nhường 1 electron ở lớp ngoài cùng (Na → Na⁺ + 1e).</li>
+                    <li>Phản ứng <strong>mãnh liệt với nước</strong>, tạo dung dịch base và giải phóng khí hydro, phản ứng tỏa nhiệt mạnh có thể gây nổ: <br><code class="bg-slate-100 p-1 rounded">2Na + 2H₂O → 2NaOH + H₂↑</code></li>
+                    <li>Tác dụng mạnh với nhiều phi kim ở nhiệt độ thường hoặc khi đun nóng (oxy, halogen,...). Cháy trong không khí với ngọn lửa màu vàng đặc trưng.</li>
+                </ul>
+            </section>
+
+            <!-- Ứng dụng thực tế -->
+            <section>
+                <h2 class="text-2xl font-bold text-slate-800 border-b-2 border-indigo-300 pb-2 mb-4">V. Ứng dụng thực tế (tại Việt Nam)</h2>
+                <ul class="list-disc list-inside space-y-3 text-slate-600">
+                    <li><strong>Công nghiệp thực phẩm:</strong> Hợp chất quan trọng nhất là muối ăn (NaCl), được dùng làm gia vị, chất bảo quản trong chế biến thực phẩm, sản xuất nước mắm, làm dưa cà.</li>
+                    <li><strong>Sản xuất hóa chất:</strong> Các nhà máy hóa chất (như ở Việt Trì, Biên Hòa) sản xuất xút (NaOH) và soda (Na₂CO₃) để phục vụ các ngành công nghiệp giấy, dệt nhuộm, sản xuất xà phòng và xử lý nước thải.</li>
+                    <li><strong>Chiếu sáng công cộng:</strong> Đèn hơi natri vẫn được sử dụng rộng rãi để chiếu sáng đường phố, khu công nghiệp tại nhiều đô thị nhờ hiệu suất phát sáng cao và tiết kiệm điện.</li>
+                    <li><strong>Y tế:</strong> Dung dịch nước muối sinh lý (NaCl 0.9%) được sản xuất và sử dụng phổ biến trong các bệnh viện, nhà thuốc để sát khuẩn, rửa vết thương, nhỏ mắt, mũi.</li>
+                </ul>
+            </section>
+
+        </div>
+      </main>
+      <footer class="text-center mt-10 pb-4">
+        <p class="text-indigo-100 text-sm opacity-80">Tổng hợp kiến thức Hóa học</p>
+      </footer>
+    </div>
+  </body>
+</html>
